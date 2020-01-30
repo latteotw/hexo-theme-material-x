@@ -38,7 +38,7 @@ music:
   autoplay: false   # 自动播放
 
 # 友链页头像占位图
-avatar_placeholder: https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png
+avatar_placeholder: https://lh3.googleusercontent.com/proxy/IV8Mra60NvS_Ez2117yNpNfbadyn7chqK6n8TnmZcuw88dEivVw7NMOzcnhLPI894c_5dYcj4kM34OWvdaaQK1A
 
 # 日期格式 http://momentjs.com/docs/
 date_format: 'YYYY-MM-DD' # 文章发布日期的格式
@@ -53,7 +53,7 @@ backstretch:
   duration: 6000 # 持续时间（毫秒）
   fade: 2500     # 渐变（毫秒）
   images:
-    - https://img.vim-cn.com/29/91197b04c13f512f734a76d4ac422d89dbe229.jpg
+    - https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-03.jpg
 
 
 
@@ -150,7 +150,7 @@ layout:
 # 侧边栏小部件配置
 sidebar:
   - widget: author
-    avatar: https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png
+    avatar: https://lh3.googleusercontent.com/proxy/IV8Mra60NvS_Ez2117yNpNfbadyn7chqK6n8TnmZcuw88dEivVw7NMOzcnhLPI894c_5dYcj4kM34OWvdaaQK1A
     jinrishici: true
     social: true
   - widget: plain
