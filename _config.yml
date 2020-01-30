@@ -62,22 +62,18 @@ backstretch:
 cover:
   scheme: search    # 后期将会提供多种封面方案
   height: half      # full（默认值）: 首页封面占据整个第一屏幕，其他页面占半个屏幕高度， half: 所有页面都封面都只占半个屏幕高度
-  title: Demo
+  title: LATTEOTW
   # logo: assets/logo.png    # logo和title只显示一个，若同时设置，则只显示logo
   # search_placeholder: '搜索'
   # 主页封面菜单
   features:
-    - name: 博文
+    - name: Blogs
       icon: fas fa-rss
       url: /
-    - name: 项目
-      icon: fas fa-code-branch
-      url: projects/
-    - name: 友链
-      icon: fas fa-link
-      url: friends/
-      rel: nofollow
-    - name: 关于
+    - name: Tags
+      icon: fas fa-hashtag
+      url: tags/
+    - name: About
       icon: fas fa-info-circle
       url: about/
       rel: nofollow
@@ -85,45 +81,38 @@ cover:
 
 # 桌面端导航栏菜单
 menu_desktop:
-  - name: 示例
-    icon: fas fa-grin
+  - name: Blogs
+    icon: fas fa-rss
     url: /
-  - name: 分类
+  - name: Categories
     icon: fas fa-folder-open
     url: blog/categories/
     rel: nofollow
-  - name: 标签
+  - name: Tags
     icon: fas fa-hashtag
     url: blog/tags/
     rel: nofollow
-  - name: 归档
+  - name: Archives
     icon: fas fa-archive
     url: blog/archives/
     rel: nofollow
 
 # 手机端导航菜单（从右上角的按钮点击展开）
 menu_mobile:
-  - name: 近期文章
-    icon: fas fa-clock
+  - name: Blogs
+    icon: fas fa-rss
     url: /
-  - name: 文章归档
+  - name: Categories
+    icon: fas fa-folder-open
+    url: blog/categories/
+    rel: nofollow
+  - name: Tags
+    icon: fas fa-hashtag
+    url: blog/tags/
+    rel: nofollow
+  - name: Archives
     icon: fas fa-archive
     url: blog/archives/
-    rel: nofollow
-  - name: 开源项目
-    icon: fas fa-code-branch
-    url: projects/
-  - name: 我的友链
-    icon: fas fa-link
-    url: friends/
-    rel: nofollow
-  - name: 主题文档
-    icon: fas fa-book
-    url: https://xaoxuu.com/wiki/material-x/
-    rel: nofollow
-  - name: 关于小站
-    icon: fas fa-info-circle
-    url: about/
     rel: nofollow
 
 layout:
@@ -151,38 +140,30 @@ layout:
 sidebar:
   - widget: author
     avatar: https://lh3.googleusercontent.com/proxy/IV8Mra60NvS_Ez2117yNpNfbadyn7chqK6n8TnmZcuw88dEivVw7NMOzcnhLPI894c_5dYcj4kM34OWvdaaQK1A
-    jinrishici: true
     social: true
   - widget: plain
-    icon: fas fa-file
-    title: 文本部件
-    body: '这是一段支持markdown的文本<br>![](https://img.vim-cn.com/4e/3c87a2fd28fd0b9c2f27ce3f83f1e9275d0488.png)'
+    icon: fas fa-dollar-sign
+    title: Support Me
+    body: 'Support barcode is coming soon<br>![]()'
   - widget: toc
   - widget: grid
     icon: fas fa-map-signs
-    title: 站内导航
+    title: Site
     rows:
-      - name: 近期文章
-        icon: fas fa-clock
+      - name: Blogs
+        icon: fas fa-rss
         url: /
-      - name: 文章归档
+      - name: Categories
+        icon: fas fa-folder-open
+        url: blog/categories/
+        rel: nofollow
+      - name: Tags
+        icon: fas fa-hashtag
+        url: blog/tags/
+        rel: nofollow
+      - name: Archives
         icon: fas fa-archive
         url: blog/archives/
-        rel: nofollow
-      - name: 开源项目
-        icon: fas fa-code-branch
-        url: projects/
-      - name: 我的友链
-        icon: fas fa-link
-        url: friends/
-        rel: nofollow
-      - name: 主题文档
-        icon: fas fa-book
-        url: https://xaoxuu.com/wiki/material-x/
-        rel: nofollow
-      - name: 关于小站
-        icon: fas fa-info-circle
-        url: about/
         rel: nofollow
   - widget: category
     more:
@@ -196,67 +177,35 @@ sidebar:
       url: blog/tags/
       rel: nofollow
   # - widget: related_posts # 需要安装插件  npm i -S hexo-related-popular-posts
-  - widget: music
-    icon: fas fa-compact-disc
-    title: "最近在听"
-    more:
-      icon: far fa-heart
-      url: https://music.163.com/#/user/home?id=63035382
-      rel: external nofollow noopener noreferrer
-      target: _blank
-    server: netease   # netease（网易云音乐）tencent（QQ音乐） xiami（虾米） kugou（酷狗）
-    type: playlist    # song （单曲） album （专辑） playlist （歌单） search （搜索）
-    id: 2615636388     # 歌曲/专辑/歌单 ID
   - widget: list
-    icon: fas fa-thumbs-up
-    title: 强烈推荐
+    icon: fas fa-link
+    title: Links
     rows:
-      - name: Hexo脚本（Mac）
-        url: https://xaoxuu.com/wiki/hexo.sh/
-      - name: 图床脚本（Mac）
-        url: https://xaoxuu.com/wiki/vim-cn.sh/
-      - name: 图片在线压缩
-        url: https://yasuotu.com
-      - name: 生成Favicon
-        url: https://realfavicongenerator.net
-      - name: 简历主题
-        url: https://mxclub.github.io/resume/
+      - name: Leetcode
+        url: https://leetcode.com/
+      - name: Python Documentation
+        url: https://docs.python.org/3/
+      - name: Geeksforgeeks
+        url: https://www.geeksforgeeks.org/
+      - name: Github
+        url: https://github.com
 
 
 
 # 社交信息
 social:
   - icon: fas fa-rss
-    url: atom.xml
+    url: /
   - icon: fas fa-envelope
-    url: mailto:me@xaoxuu.com
+    url: mailto:latteotw@gmail.com
   - icon: fab fa-github
-    url: https://github.com/xaoxuu
-  - icon: fas fa-headphones-alt
-    url: https://music.163.com/#/user/home?id=63035382
+    url: https://github.com/latteotw
+  - icon: fas fa-code
+    url: https://leetcode.com
 
 
-# 分享按钮
-# 当id为qrcode时需要安装插件  npm i -S hexo-helper-qrcode
-share:
-  - id: qq
-    name: QQ好友
-    img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/qq.png
-  - id: qzone
-    name: QQ空间
-    img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/qzone.png
-  # - id: qrcode
-  #   name: 微信
-  #   img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/wechat.png
-  - id: weibo
-    name: 微博
-    img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/weibo.png
-  # - id: qrcode
-  #   name: QRcode
-  #   img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/qrcode.png
 
-
-footer_post: '<center>这是文章页脚，可以设置打赏图片：<br><fancybox>![](https://img.vim-cn.com/4a/5f8244a7c6e1e069a781b84ed11008e7955e16.png)</fancybox></center>'
+# footer_post: '<center>这是文章页脚，可以设置打赏图片：<br><fancybox>![](https://img.vim-cn.com/4a/5f8244a7c6e1e069a781b84ed11008e7955e16.png)</fancybox></center>'
 # footer: '网页页脚文字，支持[markdown](/)'
 
 

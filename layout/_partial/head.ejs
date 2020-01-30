@@ -55,9 +55,7 @@
   <%- item %><% }) %>
   <% } %>
 
-  <% if (config.favicon) { %>
-  <link rel="shortcut icon" type='image/x-icon' href="<%- url_for(config.favicon) %>">
-  <% } %>
+  <link rel="shortcut icon" type='image/x-icon' href="/assets/favicon.ico">
 
   <% if (config.use_cdn && theme.info && theme.info.cdn && theme.info.cdn.css && theme.info.cdn.css.style) { %>
     <%- css(theme.info.cdn.css.style) %>
