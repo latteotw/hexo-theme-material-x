@@ -159,22 +159,22 @@ sidebar:
         rel: nofollow
       - name: Tags
         icon: fas fa-hashtag
-        url: blog/tags/
+        url: tags/
         rel: nofollow
       - name: Archives
         icon: fas fa-archive
-        url: blog/archives/
+        url: archives/
         rel: nofollow
   - widget: category
     more:
       icon: fas fa-expand-arrows-alt
-      url: blog/categories/
+      url: categories/
       rel: nofollow
   - widget: tagcloud
     icon: fas fa-tags
     more:
       icon: fas fa-expand-arrows-alt
-      url: blog/tags/
+      url: tags/
       rel: nofollow
   # - widget: related_posts # 需要安装插件  npm i -S hexo-related-popular-posts
   - widget: list
