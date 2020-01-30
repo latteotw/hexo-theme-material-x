@@ -11,7 +11,7 @@
     if (config.livere_uid) {
       enableLivere = true;
     }
-    if (config.gitalk) {
+    if (config.plugins.gitalk) {
       enableGitalk = true;
     }
     if (theme.valine.enable && config.leancloud) {
@@ -40,7 +40,7 @@
       <% } %>
       <% if (enableGitalk){ %>
         <section id="comments">
-          <div id="gitalk-container"></div>
+          <div id="gitalk-container-new"></div>
         </section>
       <% } %>
       <% if (enableValine){ %>
