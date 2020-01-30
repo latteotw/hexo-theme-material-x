@@ -38,7 +38,7 @@ music:
   autoplay: false   # 自动播放
 
 # 友链页头像占位图
-avatar_placeholder: https://lh3.googleusercontent.com/proxy/IV8Mra60NvS_Ez2117yNpNfbadyn7chqK6n8TnmZcuw88dEivVw7NMOzcnhLPI894c_5dYcj4kM34OWvdaaQK1A
+avatar_placeholder: /assets/avatar.jpg
 
 # 日期格式 http://momentjs.com/docs/
 date_format: 'YYYY-MM-DD' # 文章发布日期的格式
@@ -139,7 +139,7 @@ layout:
 # 侧边栏小部件配置
 sidebar:
   - widget: author
-    avatar: https://lh3.googleusercontent.com/proxy/IV8Mra60NvS_Ez2117yNpNfbadyn7chqK6n8TnmZcuw88dEivVw7NMOzcnhLPI894c_5dYcj4kM34OWvdaaQK1A
+    avatar: /assets/avatar.jpg
     social: true
   - widget: plain
     icon: fas fa-dollar-sign
