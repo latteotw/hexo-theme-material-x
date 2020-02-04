@@ -141,10 +141,18 @@ sidebar:
   - widget: author
     avatar: /assets/avatar.jpg
     social: true
-  - widget: plain
-    icon: fas fa-dollar-sign
-    title: Support Me
-    body: 'Support barcode is coming soon<br>![]()'
+  - widget: list
+    icon: fas fa-globe
+    title: Quick links
+    rows:
+      - name: How to use this blog
+        url: https://latteotw.github.io/2020/02/02/How-to-use-this-blog/
+      - name: Knowledge structure graph
+        url: https://latteotw.github.io/2020/02/02/Knowledge-structure-graph/
+      - name: Study plan
+        url: https://latteotw.github.io/2020/02/02/Study-plan/
+      - name: About this blog
+        url: https://latteotw.github.io/2020/01/30/About-this-blog/
   - widget: toc
   - widget: grid
     icon: fas fa-map-signs
